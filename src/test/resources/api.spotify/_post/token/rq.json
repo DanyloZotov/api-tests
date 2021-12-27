@@ -1,3 +1,5 @@
 {
-  "grant_type": "client_credentials"
+  "grant_type": "authorization_code",
+  "code": "AQDVVierdGdno2fb_JM282snkZOhdLuGZlVMxInGrVyRS181H9ZBojwBDui73khUAMet75B_IKlfNh-DJak7ea4x62YKvrSzOzeNzjbBsgpbJ_erHN5UJa970AjkaMMEDq56mZdHjJMHWyephJg-BsNQeXuo0gtsgcVrLTTHNhhE2Uarev3CfqQP_xVHkufVXENxNh4r4yyQ0cylzyRoA_blEsiNfWEA6MwKCJT6",
+  "redrirect_uri": "http://localhost:8888/callback"
 }
