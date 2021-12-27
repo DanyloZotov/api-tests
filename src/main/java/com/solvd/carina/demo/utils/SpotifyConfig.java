@@ -41,8 +41,8 @@ public class SpotifyConfig {
         instance.initProperties();
     }
 
-    public static String getProperty(){
-        return getInstance().properties.getProperty("spotify_token");
+    public static String getProperty(String name){
+        return getInstance().properties.getProperty(name);
     }
 
 }
