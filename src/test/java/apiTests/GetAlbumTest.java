@@ -11,6 +11,6 @@ public class GetAlbumTest extends BaseTest{
         GetAlbumMethod api = new GetAlbumMethod("4aawyAB9vmqN3uQ7FjRGTy");
         api.expectResponseStatus(HttpResponseStatusType.OK_200);
         api.callAPI();
-        api.validateResponseAgainstSchema("api.spotify/_get/playlist/rs.json");
+        api.validateResponseAgainstSchema("api.spotify/_get/album/rs.json");
     }
 }
