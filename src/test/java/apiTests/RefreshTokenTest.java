@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class RefreshTokenTest implements IAbstractTest {
 
     @Test
-    public void getAuthTokenThroughRefreshTokenTest(){
+    public void testGetAuthTokenThroughRefreshToken(){
         PostRefreshTokenMethod api = new PostRefreshTokenMethod();
         api.expectResponseStatus(HttpResponseStatusType.OK_200);
         Response response = api.callAPI();
