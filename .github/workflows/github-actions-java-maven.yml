@@ -1,6 +1,17 @@
 name: Java CI
 
-on: [push]
+on: workflow_dispatch
+  inputs:
+    logLevel:
+      description: 'Log level'
+      required: true
+      default: 'warning'
+      type: choice
+      options:
+        - info
+        - warning
+        - debug
+
 
 jobs:
   build:
@@ -15,3 +26,4 @@ jobs:
           distribution: 'temurin'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
+             echo "Log level: $LEVEL"
