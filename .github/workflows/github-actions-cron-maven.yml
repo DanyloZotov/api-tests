@@ -2,7 +2,7 @@ name: Java CI CRON
 
 on:
   schedule:
-      - cron: '0 0/10 0 ? * * *'  # every 10 minutes
+      - cron: '10 * * * *'  # every day of week, any hour at 10th minute
 
 jobs:
   build:
