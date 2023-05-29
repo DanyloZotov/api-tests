@@ -18,7 +18,6 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Run WDIO tests
       - name: Start selenoid
         uses: Xotabu4/selenoid-github-action@v2
       - uses: actions/checkout@v3
